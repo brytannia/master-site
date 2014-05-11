@@ -167,17 +167,4 @@
 					margin-left: -80px;
 				}
 
-		div.field
-		{
-			float: left;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-			-o-box-sizing: border-box;
-			-ms-box-sizing: border-box;
-			box-sizing: border-box;
-		}
-
-		div.text-field
-		{
-			margin-left: 3em;
-		}
+		

@@ -686,3 +686,14 @@
 	{
 		margin-top: 3em;
 	}
+
+		.c1
+		{
+			text-align: right;
+			font-weight: 700;
+			padding-right: 1em;
+		}
+	tr.rowq td
+	{
+		padding-top: 1em;
+	}
