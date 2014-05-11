@@ -1,0 +1,20 @@
+ru
+Брынза Татьяна Александровна
+Система распознавания устной речи на основе гибридной модели
+Компьютерный эколого-экономический мониторинг
+
+
+ua
+Бринза Тетяна Олександрівна
+Система розпізнавання усної мови на основі гібридної моделі
+Комп'ютерний еколого-економічний моніторинг
+
+en
+Brynza Tetyana
+Automatic speech recognition system based on a hybrid model
+Computer ecological and economic monitoring
+
+fr
+Brynza Tetiana
+Système de la reconnaissance automatique de la parole sur la base du modèle hybride
+Les systèmes de surveillance dans l'économie et l'écologie assisté par l'ordinateur
