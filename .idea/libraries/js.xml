@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="js">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/js" />
+      <root url="file://$PROJECT_DIR$/library" />
+      <root url="file://$PROJECT_DIR$/links" />
+      <root url="file://$PROJECT_DIR$/x" />
+    </SOURCES>
+  </library>
+</component>

@@ -46,6 +46,10 @@
 		font-weight: 400;
 		color: #6b7770;
 	}
+	h3.article
+	{
+		margin-top: 1em;
+	}
 
 	h3.bold 
 	{
@@ -114,12 +118,23 @@
 		margin-bottom: 3em;
 	}
 	
-	section,
-	article
+	section
 	{
 		margin-bottom: 6em;
 	}
+	article.header
+	{
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
 
+	article.picture
+	{
+		margin-top: 2em;
+		margin-bottom: 2em;
+		text-align: center;
+	}
+	
 	p
 	{
 		margin-bottom: 1em;
@@ -162,6 +177,10 @@
 	{
 		font-weight: 700;
 		margin-left: 2em;
+	}
+	span.titler
+	{
+		font-weight: 700;
 	}
 	div.banner-byline
 	{
@@ -245,6 +264,12 @@
 			width: auto;
 		}
 		
+	div.pic
+	{
+		text-align: center;
+		margin: 2em 2em 2em 2em;
+	}
+
 	.button
 	{
 		display: inline-block;
@@ -306,65 +331,7 @@
 			margin-top: 0;
 		}
 
-	ul.contact
-	{
-	}
 	
-		ul.contact li
-		{
-			position: relative;
-			display: inline-block;
-			margin: 0 0.25em 0 0.25em;
-			top: 0;
-			-moz-transition: top .15s ease-in-out;
-			-webkit-transition: top .15s ease-in-out;
-			-o-transition: top .15s ease-in-out;
-			-ms-transition: top .15s ease-in-out;
-			transition: top .15s ease-in-out;
-		}
-
-			ul.contact li a
-			{
-				display: block;
-				position: relative;
-				width: 48px;
-				height: 48px;
-				border-radius: 6px;
-				outline: 0;
-				-moz-transition: background-color .2s ease-in-out;
-				-webkit-transition: background-color .2s ease-in-out;
-				-o-transition: background-color .2s ease-in-out;
-				-ms-transition: background-color .2s ease-in-out;
-				transition: background-color .2s ease-in-out;
-				background: #c1cac5;
-				text-align: center;
-			}
-			
-				ul.contact li a:before
-				{
-					color: #f2f5f3;
-					font-size: 32px;
-					line-height: 48px;
-				}
-			
-			ul.contact li:hover a.fa-facebook		{ background-color: #3C5A98; }
-			ul.contact li:hover a.fa-twitter		{ background-color: #2DAAE4; }
-			ul.contact li:hover a.fa-rss			{ background-color: #F2600B; }
-			ul.contact li:hover a.fa-dribbble		{ background-color: #C4376B; }
-			ul.contact li:hover a.fa-linkedin		{ background-color: #006599; }
-			ul.contact li:hover a.fa-tumblr			{ background-color: #31516A; }
-			ul.contact li:hover a.fa-google-plus	{ background-color: #DA2713; }
-
-			ul.contact li:hover
-			{
-				top: -5px;
-			}
-
-			ul.contact li:active
-			{
-				top: 0;
-			}
-
 	ul.special
 	{
 	}
@@ -461,50 +428,6 @@
 		}
 
 
-/*********************************************************************************/
-/* Section + Article Types                                                       */
-/*********************************************************************************/
-
-	.is-highlight
-	{
-		text-align: center;
-	}
-
-	.is-features
-	{
-	}
-	
-	.is-feature
-	{
-	}
-
-	.is-blog
-	{
-	}
-
-	.is-post
-	{
-	}
-
-	.is-post-summary
-	{
-	}
-
-	.is-page-content
-	{
-	}
-
-/*********************************************************************************/
-/* Sidebar + Content                                                             */
-/*********************************************************************************/
-
-	.sidebar
-	{
-	}
-	
-	.content
-	{
-	}
 
 /*********************************************************************************/
 /* Wrappers                                                                      */
@@ -555,10 +478,11 @@
 /* Nav                                                                           */
 /*********************************************************************************/
 
-	#nav
-	{
-	}
+#nav
+{
 
+}
+	
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -682,6 +606,16 @@
 		margin-top: 0.7em;
 	}
 
+	div.index
+	{
+		background-color: #e3daa8;
+	}
+		a.index
+		{
+			color: #6b6670;
+			margin-left: 0.5em;
+		}
+
 	div.links
 	{
 		margin-top: 3em;
@@ -697,3 +631,62 @@
 	{
 		padding-top: 1em;
 	}
+
+	table.search
+	{
+		width: 90%;
+		margin: auto;
+		border: 2px solid #e3daa8;
+		border-collapse: collapse;
+		background-color: white;
+	}
+
+		
+		caption.search
+		{
+			text-align: center;
+			vertical-align: middle;
+			font-size: 1.25em;
+			padding-bottom: 0.5em;
+			/*border: 2px solid #e3daa8;
+			border-collapse: collapse;*/
+		}
+	.cn
+	{
+		text-align: center;
+		border: 1px solid #e3daa8;
+		vertical-align: bottom;
+	}
+	
+	.cl
+	{
+		padding-left: 1em;
+		border: 1px solid #e3daa8;
+	}
+
+	.cc
+	{
+		text-align: center;
+		vertical-align: middle;
+		font-size: 1.15em;
+		border: 1px solid #e3daa8;
+	}
+	.ccl
+	{
+		text-align: center;
+		vertical-align: middle;
+		font-size: 1.15em;
+		border: 1px solid #e3daa8;
+		padding-bottom: 0.2em;
+		padding-top: 0.5em;
+	}
+	img.cn
+	{
+		padding-bottom: 0.2em;
+		padding-top: 0.5em;
+		border: 0px solid #e3daa8;
+	}
+
+
+	
+

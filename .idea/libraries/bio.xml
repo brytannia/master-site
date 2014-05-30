@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="bio">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/bio" />
+      <root url="file://$PROJECT_DIR$/css" />
+      <root url="file://$PROJECT_DIR$/diss" />
+      <root url="file://$PROJECT_DIR$/images" />
+      <root url="file://$PROJECT_DIR$/ind" />
+      <root url="file://$PROJECT_DIR$/js" />
+      <root url="file://$PROJECT_DIR$/library" />
+      <root url="file://$PROJECT_DIR$/links" />
+      <root url="file://$PROJECT_DIR$/x" />
+    </SOURCES>
+  </library>
+</component>
