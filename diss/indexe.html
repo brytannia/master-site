@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<!--
+	TXT 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Abstract — Tetyana Brynza — Spoken language recognition system based on hybrid model</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" />
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/config_sub.js"></script>
+		<script src="../js/skel.min.js"></script>
+		<script src="../js/skel-panels.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="../css/skel-noscript.css" />
+			<link rel="stylesheet" href="../css/style.css" />
+			<link rel="stylesheet" href="../css/style-desktop.css" />
+		</noscript>
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="banner-wrapper">
+			::before
+				<div class="logo">
+					<div class="image-banner">
+						<a href="../brynza_big.jpg" ><img src="../photo.jpg" alt="brynza" class="image-banner"/></a>
+					</div>
+					<div class="banner-byline">
+						<h3 class="bold-banner-byline" >Tetyana Brynza</h3>
+						<h3 class="banner-byline">Faculty	of computer science and technology</h3>
+						<h3 class="banner-byline">Department of computer systems for monitoring</h3>
+						<h3 class="banner-byline">Speciality "Computer ecological and economic monitoring”</h3>
+						<h2 class="bold">Spoken language recognition system based on hybrid model</h2>
+						<h3 class="banner-byline">Scientific adviser: Natalia Gubenko</h3>
+					</div>
+				</div>
+			</div>
+		<!-- /Header -->
+
+		<!-- Nav -->
+			<nav id="nav" class="skel-panels-fixed">
+				<ul>
+					<li><a href="../indexe.html">Resume</a></li>
+					<li class="current_page_item"><a href="indexe.html">Abstract</a></li>
+				</ul>
+			</nav>
+		<!-- /Nav -->
+		
+		
+		<!-- Main -->
+			<div id="main-wrapper">
+				<div id="main" class="container">
+					<div class="row">
+						<div class="12u">
+
+							<!-- Features -->
+								<section class="is-features">
+									<h2 class="major"><span id="logo">Abstract</span></h2>
+									<div>
+										
+													<section>
+				<ul>
+					<li><a href="#p1">Introduction</a></li>
+					<li><a href="#p2">Research goal</a></li>
+					<li><a href="#p3">1. Review of research and development on the subject</a></li>
+					<li class="c2"><a href="#p4">1.1 World level</a></li>
+					<li class="c2"><a href="#p5">1.2 National level</a></li>
+					<li class="c2"><a href="#p6">1.3 Local level</a></li>
+					<li><a href="#p7">2. The main content</a></li>
+					<li class="c2"><a href="#p8">2.1 Structure of modern speech recognition systems </a></li>
+					<li class="c2"><a href="#p9">2.2 Approaches to the recognition of phonemes </a></li>
+					<li class="c2"><a href="#p10">2.3 Neural network architectures</a></li>
+					<li class="c2"><a href="#p11">2.4 Practical experiment </a></li>
+					<li><a href="#p12">Conclusion</a></li>
+					<li><a href="#p13">References</a></li>
+				</ul>
+										<h3 class="article" id='p1'>Introduction</h3>
+										<p>There are many ways to implement automated speech recognition systems:
+•	voice control system for the Internet of Things;</br>
+•	automated call-centers;</br>
+•	search in video and audio files;</br>
+•	automatic transfer of information between its various forms.</br></p><p>
+Over the past sixty years, speech recognition systems have come a long way from recognition dozen words spoken by one speaker to speaker independent recognition systems with hundreds of thousands of words vocabulary.</p><p>
+During this time, the structure of the speech recognition system was formed. This system consists of two large blocks: acoustic-phonetic module for submitting the speech signal and linguistic module for the interpretation of the resulting acoustic model information and get result to the user.</p><p>
+If linguistic algorithms (N-grams, the Viterbi algorithm, the Baum–Welch, direct – reverse) worked well and did not require improvements, the acoustic- phonetic algorithms block still not good enough and have the potential for further improvement, as shown current results of the speaker phoneme recognition. Thus, the development of new and more efficient algorithms for recognition of phonemes is an urgent task. In the context of studies in recent years appears to be effective for its decision to use a hybrid neural network based on Bayesian belief networks.</p>
+<h3 class="article" id='p2'>Research goal</h3>
+<p>ВIn view of the above stated goal was set – to create speech recognition system based on the hybrid model with Bayesian networks.
+</p><p>
+In accordance with the goal is required to solve such problems:</p><p>
+1. Examine the structure of modern speech recognition systems.</br>
+2. Examine approaches to speech recognition.</br>
+3. Analyse existing speech recognition methods.</br>
+4. Develop new, more efficient model of speech recognition.</br>
+5. Apply this model to recognize the Ukrainian language.</br>
+6. Develop application for speech recognition.</p>
+<h3 class="article" id='p3'>1. Review of research and development on the subject</h3>
+<h3 class="article" id='p4'>1.1 World level</h3>
+<p>In the scientific community very enthusiastic for Bayesian networks is Professor Geoffrey Hinton, University of Toronto. In his works [2,3], and the works of his colleagues [4,5] are often used these networks in conjunction with restricted Boltzmann machine.
+</p>
+<h3 class="article" id='p5'>1.2 National level</h3>
+<p>A leader in speech technologies in Ukraine is Department of sound pattern recognition of the International Research and Training Center of Information Technologies and Systems. Since the late 1960s in the department (then at the Glushkov Institute of Cybernetic) under the leadership of T.K. Vintsyuk (1988 to 2012) are working on speech recognition. Taras Klimovich Vintsyuk invented generative model for pattern recognition, known as Dynamic Time Wraping (DTW). The International Research and Training Center of Information Technologies and Systems Conference held "UkrObraz" dedicated to pattern recognition, as well as annual summer school seminars on speech technologies.
+</p>
+<h3 class="article" id='p6'>1.3 Local level</h3>
+<p>In the Donetsk National Technical University research related to speech recognition are conducted at the Department of Applied Mathematics and Computer Science under the direction of Oleg Ivanovich Fedjaev. We should also mention the work of this department graduate student Ivan Jurevich Bondarenko [7]. Also involved in this issue are students and post-graduate students of Department of artificial intelligence systems under the management of Vladislav Jurevich Shelepov. With the most important works of masters DNTU on this topic can be found in the library.</p>
+<h3 class="article" id='p7'>2. The main content</h3>
+<h3 class="article" id='p8'>2.1 Structure of modern speech recognition systems</h3>
+<p>The architecture of a modern system of automatic speech recognition consists of typical units:</p><p>
+•	The noise reduction and separation of the desired signal.</br>
+•	Acoustic-phonetic model.</br>
+•	Linguistic model.</br>
+•	Decoder.
+</p><p>
+As stated above, the main interest are methods to improve the efficiency of acoustic-phonetic model, as a linguistic unit would be useless if it is not achieved the required accuracy of the acoustic speech recognition. Further, a closer look at the acoustic-phonetic algorithms block.
+</p>
+<h3 class="article" id='p9'>2.2 Approaches to the recognition of phonemes</h3>
+<p>There are two approaches to the recognition of phonemes: generative (hidden Markov models, Gaussian mixture and CDP Vintsyuk approach) and discriminative (neural networks, support vector machines). Generative approach allows very efficient simulation of nonlinear time-varying processes. But at the same time discriminative ability of this class of algorithms is not high, in opposite to other algorithms described here.</p><p>
+Discriminative algorithms by separating planes split samples by classes in the feature space. A bad thing about discriminative algorithms is their low efficiency in recognition of time-varying images. But as phonemes in time stationary and not change as whole words, this disadvantage can be lowered within a solved problem.
+</p>
+<h3 class="article" id='p10'>2.3 Neural network architectures</h3>
+<p>Consider one of the options under the discriminative approach – multilayer perceptron neural network architecture.</p>
+<p>
+ Backpropagation algorithm allows to learn all the layers of the neural network and allow to solve with neural networks very complex tasks (eg such as the recognition of speech and writing). But increasing the number of layers network, complexity of required calculations grows exponentially.</p><p>
+The solution to this problem lies in finding a more efficient network architectures and algorithms for their learning. There are several solutions to this problem: use learning algorithms that allow to get out of local minima, use of neural networks (Convolutional Neural Networks, Time Delay Neural Networks), use special algorithms with initialize multilayer networks based on Bayesian algorithms. Such algorithms trained network layers and consistently without a teacher. Algorithm is to first consider the network as a Bayesian network and teach her before without a teacher. And when the weights are close to the values of the likelihood function, the survival learning with backpropagation algorithm. The algorithm is shown in Figure 1. </p>
+<article class="picture">
+	<img src="images/hybrid_model.gif" alt="hybrid model">
+	<span></br>Figure 1 – Work of a hybrid neural network (animation, 14 frames, 15 rep., 65.8 KB)
+</span>
+</article>
+
+<h3 class="article" id='p11'>2.4 Practical experiment</h3>
+<p>As an experiment, two programs have been written for training multilayer perceptron and sigmoid belief networks problem XOR. Both programs are based on the same network interface.
+The program works on the above learning algorithms networks. As desired error rate was chosen by 0.01. Weight adjusted after each training epoch.
+</p><p>
+The second subroutine sigmoidal network is used as a trust mechanism solution of the problem of retraining network XOR. As a result of the experiment, it was found that for training multilayer perceptrons took 228 epochs of training. At the same time as the sigmoid belief networks with post training took 106 epochs. Graphs of the average error for periods shown in Figure 2.
+
+<article class="picture">
+	<img src="images/pic1e.gif" alt="experiment results">
+	<span></br>Figure 2 — Results of an experiment 
+</span>
+</article>
+<
+The results of this experiment confirm the effectiveness of the use of trust networks for solving the problem of classification, and therefore the results can be interpolated to the problem of speech recognition as part of the classification problem. 
+</p>
+<h3 class="article" id='p12'>Conclusion</h3>
+<p>Based on the analysis of existing developments to date, we can conclude that the hybrid approach of using trust networks and multilayer perceptron is an effective tool for solving classification problems in general and speech recognition in particular. This conclusion is based on the results of practical experiments where it has been demonstrated that by using the multilayer perceptron in conjunction with Bayesian networks of trust, the training network accelerates 2 times. This means that this results requires further study and improvement of learning algorithms to use this neural network architecture to maximize quality of speech recognition.</p><p>
+Direction of future research should involve search approach in the application of Bayesian networks to build good acoustic- phonetic models of speech recognition and use this model to recognize Ukrainian speech.
+</p>
+<p>
+At time of the writing this essay master's work is not yet complete. Due date: December 2014. Full text of the work and materials on the topic can be obtained from author after this date.</p>
+<h3 class="article" id='p13'>References</h3>
+<p>[1] Александр Пасечник История развития систем распознавания речи: как мы пришли к Siri [Электронный ресурс] – [Режим доступа:] <a href="http://habrahabr.ru/post/131945/">http://habrahabr.ru/post/131945/</a></br>
+[2] Geoffrey Hinton. NISP tutorial on deep belief nets. – Canadian Institute for Advanced Research, Department of Computer Science, University of Toronto, 2007 – 100 p.</br>
+[3] Geoffrey Hinton. To recognize shapes, first learn to generate images. — Department of computes Science, University of Toronto, 2006. — 17 p.</br>
+[4] Deng, L., Hinton, G. E. and Kingsbury, B. New types of deep neural network learning for speech recognition and related applications: An overview – IEEE International Conference on Acoustic Speech and Signal Processing (ICASSP 2013) – Vancouver, 2013. – 5 p.</br>
+[5] Abdel-rahman Mohamed, Geoffrey Hinton, Gerald Penn. Understanding how Deep Belief Nets perform acoustic modeling. – ICASSP, 2012 – 4 p.</br>
+[6] Распознавание речи от Яндекса. Под капотом у Yandex.SpeechKit. [Электронный ресурс] [Режим доступа:] <a href="http://habrahabr.ru/company/yandex/blog/198556/">http://habrahabr.ru/company/yandex/blog/198556/</a></br>
+[7] О.І.Федяєв, І.Ю.Бондаренко. Розробка і дослідження нейромережевого алгоритму дикторонезалежного розпізнавання фонем в усному мовленні // Праці Одинадцятої всеукраїнської міжнародної конференції з оброблення сигналів і зображень та розпізнавання образів УкрОБРАЗ'2012. — К.: МННЦ ІТ та С, 2012. — С.71-74.</br>
+[8] А.Л. Ронжин, А.А. Карпов, И.В. Ли Система автоматического распознавания русской речи SIRIUS — Искусственный интеллект выпуск 3, 2010 – C. 590-601.</br>
+[9] T. Dutoit Reconnaissance automatique de la parole — Techniques de l’Ingénieur, 2010 – 19 p.</br>
+[10] С. Хайкин. Нейронные сети: полный курс, 2-е издание, : Пер. с англ. — М.: Издательский дом «Вильямс», 2006. — 1104 с.</br>
+[11] Hinton, G., Deng, L., Yu, D., Dahl, G. E. et al. Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups. – Signal Processing Magazine, IEEE, 2012 – 11 p.</br>
+[12] Rasmus Berg Palm. Prediction as a candidate for learning deep hierarchical models of data. – Technical University of Denmark, 2012 – 80 p.</br>
+[13] Брынза Т.А, Бондаренко И.Ю. Сигмоидальные сети доверия в решении задач классификации – Труды IV международной конференции «Информационно-управляющие системы и компьютерный мониторинг», 2013 – C. 422-427</br>
+[14] Брынза Т.А., Бондаренко И.Ю., Губенко Н.Е. Представление байесовских сетей доверия для решения задачи распознавания образов. – Труды IX международной научно-технической конференции студентов, аспирантов, молодых ученых «Информатика и компьютерные технологии», 2013 – 4 ст.</br>
+ [15] Linda Otmani, Abdelkader Benyettou. Les réseaux neuro-bayésiens appliqués à la reconnaissance de la parole. – Université des sciences et de technologie d’ORAN -Mohamed Boudiaf- faculté des sciences, département d’informatique, 2007 – 7 p.</br>
+[16] Gregoire Montavon. Deep learning for spoken language identiﬁcation. – Machine Learning Group, Berlin Institute of Technology Germany, 2005 – 4 p.</br>
+[17] Hinton, G.E., Dayan, P., Frey, B.J. & Neal, R. The wake-sleep algorithm for self-organizing neural network. — Science, 1995. — P. 1158-1161.
+</p>
+								</section>
+							<!-- /Features -->
+
+						</div>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		<!-- /Main -->
+
+		<!-- Footer -->
+			<footer id="footer" class="container">
+				
+				<!-- Links -->
+
+					<div > 
+					<span>
+						<a href="http://donntu.edu.ua/eng/index.php/en/">Official website of DonNTU</a> | 
+						<a href="http://masters.donntu.edu.ua/indexe.htm">Masters of DonNTU' portal</a> </span>
+					</div>
+
+				<!-- /Links>
+				
+				
+				
+				<!-- Copyright -->
+					<div id="copyright">
+						&copy; Tetyana Brynza | Design: <a href="http://html5up.net/">HTML5 UP</a>
+					</div>
+				<!-- /Copyright -->
+
+
+				
+				<!-- Languages -->
+					<div class="langs">
+						<span><a href="index.html">Русский</a> | 
+							<a href="indexu.html">Українська</a> | 
+							English | 
+							<a href="indexf.html">Français</a>	
+						</span>
+					</div>
+
+				<!-- /Languages-->
+			</footer>
+		<!-- /Footer -->
+
+	</body>
+</html>

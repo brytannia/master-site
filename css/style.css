@@ -49,6 +49,7 @@
 	h3.article
 	{
 		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 
 	h3.bold 
@@ -97,6 +98,12 @@
 			text-decoration: none;
 		}
 
+
+
+	li.c2
+	{
+		margin-left: 2em;
+	}
 	form
 	{
 	}
