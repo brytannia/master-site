@@ -86,7 +86,10 @@
 		{
 			background: #f2f5f3;
 		}
-	
+	p
+	{
+		text-align: justify;
+	}
 	a
 	{
 		color: #006376;

@@ -1,3 +1,4 @@
+\
 /*
 	TXT 2.5 by HTML5 UP
 	html5up.net | @n33co
@@ -217,7 +218,7 @@
 
 	#banner-wrapper
 	{
-		padding: 8em 0 8em 0;
+		padding: 2em 0 1em 0;
 	}
 	
 	#main-wrapper
@@ -400,7 +401,7 @@
 	#footer
 	{
 		text-align: center;
-		padding: 5em 0 5em 0;
+		padding: 3em 0 3em 0;
 	}
 	
 		#footer > .row
